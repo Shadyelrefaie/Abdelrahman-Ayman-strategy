@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Abdelrahman Ayman - Personal Branding Strategy & Content Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1ea;--ink:#18211c;--muted:#645f54;--line:#e2ddcf;--card:#fffefb;--soft:#faf8f1;--pine:#1f3b34;--gold:#a9762f;--clay:#93482c;--slate:#3f5064;--plum:#57394f;--moss:#556743;--gold-l:#f2c879;--h0:#efebe0;--h1:#d9e2d4;--h2:#9fb89a;--h3:#3f6b57}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121815;--ink:#ece8dc;--muted:#a8a396;--line:#2b3630;--card:#19211d;--soft:#1e2823;--pine:#2f5a4e;--gold:#d3a35c;--clay:#d8825f;--slate:#8fa3bb;--plum:#c595b3;--moss:#9bb583;--h0:#232d28;--h1:#2f4339;--h2:#46705e;--h3:#6fa58b}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15.5px;line-height:1.65}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;margin:0;line-height:1.25;font-weight:600}
+a{color:inherit}
+.top{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1180px;margin:auto;padding:10px 20px;display:flex;gap:6px;align-items:center;overflow-x:auto;scrollbar-width:none}
+.top-in::-webkit-scrollbar{display:none}
+.top a{flex:0 0 auto;text-decoration:none;font-size:13px;font-weight:500;padding:7px 14px;border-radius:99px;color:var(--muted);border:1px solid transparent;white-space:nowrap}
+.top a:hover{color:var(--ink);border-color:var(--line)}
+.top a.on{background:var(--pine);color:#f4f1e8}
+.top .brand{font:600 11px "IBM Plex Mono",monospace;color:var(--gold);margin-right:12px;letter-spacing:.08em}
+.wrap{max-width:1180px;margin:auto;padding:26px 20px 90px}
+.slide{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:44px 50px 50px;margin:0 0 20px;position:relative;overflow:hidden;scroll-margin-top:70px}
+.slide:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--accent,var(--pine))}
+.no{position:absolute;right:24px;bottom:14px;font:600 11px "IBM Plex Mono",monospace;color:var(--muted);opacity:.7}
+.eb{font:600 11.5px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--accent,var(--slate));margin-bottom:8px}
+.slide h2{font-size:30px;margin-bottom:8px;max-width:900px}
+.sub{color:var(--muted);font-size:15px;max-width:820px;margin:0}
+.sec-head{margin:38px 0 14px;display:flex;align-items:baseline;gap:14px;scroll-margin-top:70px}
+.sec-head b{font:600 13px "IBM Plex Mono",monospace;color:var(--gold)}
+.sec-head h2{font-size:24px}
+.sec-head i{flex:1;height:1px;background:var(--line)}
+.cover{background:linear-gradient(150deg,#141c17,#25352b);color:#f4f1e8;min-height:560px;display:flex;flex-direction:column;justify-content:center;border:0}
+.cover:before{display:none}
+.cover h1{font-size:50px;font-weight:700;margin:14px 0 18px;color:#f4f1e8;max-width:900px;line-height:1.15}
+.cover .by{font:500 15px "IBM Plex Mono",monospace;color:#c9a26a;letter-spacing:.04em}
+.cover p{font-size:18px;color:#cfd3c6;max-width:700px;margin:26px 0 0}
+.cover .eb{color:#c9a26a}
+.cover .btn{display:inline-block;margin-top:30px;padding:12px 22px;border-radius:12px;background:#c9a26a;color:#18211c;font-weight:600;text-decoration:none;font-size:14px;align-self:flex-start}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:6px 13px;border-radius:99px;font-size:12.5px;font-weight:500;border:1px solid var(--line);background:var(--soft)}
+.idx{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+.idx-card{border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--soft)}
+.idx-card>a{text-decoration:none;display:block}
+.idx-card .n{font:600 12px "IBM Plex Mono",monospace;color:var(--gold)}
+.idx-card h3{font-size:19px;margin:4px 0 4px}
+.idx-card>a:hover h3{color:var(--gold)}
+.idx-card p{margin:0;font-size:13px;color:var(--muted)}
+.idx-card ul{margin:12px 0 0;padding:10px 0 0;list-style:none;border-top:1px dashed var(--line)}
+.idx-card li a{display:block;font-size:13.5px;padding:3px 0;text-decoration:none}
+.idx-card li a:hover{color:var(--gold)}
+.g2,.g3,.g4{display:grid;gap:14px;margin-top:20px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.panel{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:var(--card)}
+.panel.soft{background:var(--soft)}
+.panel h3{font-size:16.5px;margin-bottom:7px}
+.panel p{margin:0;color:var(--muted);font-size:14px}
+.panel ul{margin:0;padding-left:18px;font-size:14px}
+.panel li{margin:6px 0}
+.call{margin-top:20px;border-radius:14px;padding:18px 22px;border:1px solid color-mix(in srgb,var(--accent,var(--pine)) 30%,var(--line));background:color-mix(in srgb,var(--accent,var(--pine)) 7%,var(--card))}
+.call b{display:block;font:600 11px "IBM Plex Mono",monospace;letter-spacing:.07em;text-transform:uppercase;color:var(--accent,var(--pine));margin-bottom:5px}
+.call p{margin:0;font-size:16px;font-weight:500}
+.quote{margin-top:16px;border-radius:14px;padding:22px 26px;background:var(--pine);color:#f4f1e8}
+.quote small{display:block;font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:#b7c9c0;margin-bottom:6px}
+.quote p{margin:0;font-size:18px;font-weight:500;line-height:1.6;font-family:"Fraunces",Georgia,serif}
+.quote b{color:var(--gold-l);font-weight:600}
+.tag{display:inline-block;font:600 10.5px "IBM Plex Mono",monospace;padding:4px 10px;border-radius:99px;background:var(--soft);border:1px solid var(--line);color:var(--muted)}
+.tag.g{background:#e6eddb;color:#2b4a3c;border-color:#cfdcbd}
+.tag.b{background:#e4ebf1;color:#33465a;border-color:#cdd8e2}
+.tag.o{background:#f6ecd9;color:#7d5116;border-color:#ead9b8}
+.tag.r{background:#f6e3da;color:#7d3820;border-color:#ebcbbc}
+.funnel{display:flex;flex-direction:column;gap:8px;margin-top:22px;align-items:center}
+.fn{padding:18px 24px;color:#fff;text-align:center;clip-path:polygon(0 0,100% 0,calc(100% - 22px) 100%,22px 100%)}
+.fn h3{font-size:16px;color:#fff;margin-bottom:3px}.fn p{margin:0 auto;font-size:13.5px;color:rgba(255,255,255,.9);max-width:520px}
+.fn1{width:100%;background:var(--slate)}.fn2{width:80%;background:var(--pine)}.fn3{width:60%;background:var(--gold)}
+.tbl{width:100%;border-collapse:separate;border-spacing:0;margin-top:18px;border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:13.5px}
+.tbl th,.tbl td{padding:11px 12px;border-bottom:1px solid var(--line);border-left:1px solid var(--line);text-align:center;vertical-align:middle}
+.tbl th{background:var(--soft);font:600 10.5px "IBM Plex Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.tbl td:first-child,.tbl th:first-child{text-align:left;font-weight:600;border-left:0}
+.tbl td.l{text-align:left;color:var(--muted);font-weight:400}
+.tbl tr:last-child td{border-bottom:0}
+.dots{display:inline-flex;gap:3px}.dots i{width:9px;height:9px;border-radius:50%;background:var(--line)}.dots i.on{background:var(--accent,var(--pine))}
+.heat{width:100%;border-collapse:separate;border-spacing:4px;margin-top:14px;font-size:13px}
+.heat th{font:600 10.5px "IBM Plex Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;padding:6px 4px;text-align:center}
+.heat td{height:38px;border-radius:8px;text-align:center}
+.heat td:first-child{text-align:left;font-weight:600;background:none;height:auto;padding-right:10px;white-space:nowrap}
+.heat td.c0{background:var(--h0)}.heat td.c1{background:var(--h1)}.heat td.c2{background:var(--h2)}.heat td.c3{background:var(--h3)}
+.heat td.me{background:repeating-linear-gradient(45deg,transparent 0 5px,color-mix(in srgb,var(--gold) 28%,transparent) 5px 10px);border:1.5px dashed var(--gold)}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--muted);margin-top:10px;align-items:center;flex-wrap:wrap}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:6px;vertical-align:-2px}
+.p-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.p-head h2{font-size:27px}
+.rank{width:54px;height:54px;border-radius:50%;background:var(--accent);color:#fff;font:600 17px "IBM Plex Mono",monospace;display:grid;place-items:center;flex:0 0 auto}
+.bubble{margin-top:16px;border-radius:16px 16px 16px 4px;background:var(--soft);border:1px solid var(--line);padding:14px 18px;font-family:"Fraunces",Georgia,serif;font-size:17px;max-width:640px}
+.pcols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+.pc{border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pc h3{font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.pc ul{margin:0;padding-left:16px;font-size:13.5px}.pc li{margin:5px 0}
+.delta{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:12px;margin-top:14px;overflow:hidden}
+.delta div{padding:13px 16px;font-size:13.5px}
+.delta div+div{border-left:1px solid var(--line)}
+.delta b{display:block;font:600 10.5px "IBM Plex Mono",monospace;color:var(--accent);margin-bottom:4px;letter-spacing:.05em}
+.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:12px;align-items:center;margin:9px 0;font-size:13.5px}
+.bar .t{height:12px;border-radius:99px;background:var(--soft);border:1px solid var(--line);overflow:hidden}
+.bar .t i{display:block;height:100%;border-radius:99px;background:var(--pine)}
+.bar b{font:600 12.5px "IBM Plex Mono",monospace;text-align:right}
+.bar.me .t i{background:var(--clay)}.bar.me span{font-weight:600;color:var(--clay)}
+.ring{display:flex;gap:18px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--soft)}
+.ring svg{flex:0 0 auto}
+.ring b{display:block;font:600 30px "IBM Plex Mono",monospace;color:var(--accent);line-height:1.1}
+.ring span{font-size:13.5px;color:var(--muted);display:block;margin-top:4px}
+.bigstat{border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--soft);display:flex;flex-direction:column;justify-content:center}
+.bigstat b{font:600 38px "IBM Plex Mono",monospace;color:var(--accent);line-height:1.1}
+.bigstat span{font-size:13.5px;color:var(--muted);margin-top:4px}
+.donut{width:160px;height:160px;border-radius:50%;position:relative;margin:0 auto}
+.donut:after{content:"";position:absolute;inset:38px;border-radius:50%;background:var(--card)}
+.d-intent{background:conic-gradient(var(--slate) 0 45%,var(--moss) 45% 80%,var(--clay) 80% 100%)}
+.d-feed{background:conic-gradient(var(--pine) 0 80%,var(--gold) 80% 100%)}
+.leg{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:12px;font-size:13px}
+.leg span:before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;background:var(--c)}
+.fx{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:22px 0 10px}
+.fx span{padding:10px 14px;border-radius:12px;background:var(--soft);border:1px solid var(--line);font-weight:600;font-size:13.5px}
+.fx em{font-style:normal;color:var(--gold);font-weight:700}
+.fx span.res{background:var(--pine);color:#f4f1e8;border-color:var(--pine)}
+.tl{display:grid;grid-template-columns:repeat(3,1fr);margin-top:24px;position:relative}
+.tl:before{content:"";position:absolute;top:13px;left:8%;right:8%;height:2px;background:var(--line)}
+.tl div{position:relative;padding:36px 14px 0;text-align:center}
+.tl div:before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);width:16px;height:16px;border-radius:50%;background:var(--accent,var(--gold));border:3px solid var(--card)}
+.tl b{display:block;font-size:15px;margin-bottom:6px}.tl span{font-size:13.5px;color:var(--muted);display:block}
+.flow{display:flex;gap:8px;align-items:stretch;margin-top:18px}
+.flow>div{flex:1;border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center;background:var(--soft);font-size:14px}
+.flow>div.em{background:var(--pine);border-color:var(--pine);color:#f4f1e8}
+.flow small{display:block;font:600 10.5px "IBM Plex Mono",monospace;color:var(--gold);margin-bottom:4px;letter-spacing:.05em;text-transform:uppercase}
+.flow .em small{color:var(--gold-l)}
+.flow>i{align-self:center;color:var(--muted);font-style:normal}
+.num{width:30px;height:30px;border-radius:9px;background:var(--soft);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font:600 11.5px "IBM Plex Mono",monospace;color:var(--accent,var(--pine));margin-bottom:10px}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.link-card{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;background:var(--soft)}
+.link-card:hover{border-color:var(--gold)}
+.link-card b{display:block;font-family:"Fraunces",serif;font-size:17px}
+.link-card span{font-size:13.5px;color:var(--muted)}
+.link-card em{margin-left:auto;font-style:normal;color:var(--gold);font-size:20px}
+.sl{margin:16px 0}
+.sl .lab{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-bottom:6px}
+.sl .rail{height:8px;border-radius:99px;background:var(--line);position:relative}
+.sl .rail i{position:absolute;top:50%;width:18px;height:18px;border-radius:50%;background:var(--gold);border:3px solid var(--card);transform:translate(-50%,-50%);box-shadow:0 0 0 1px var(--gold)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:12px}
+.day{border:1px solid var(--line);border-radius:10px;padding:8px 6px;text-align:center;background:var(--soft);min-height:112px}
+.day small{display:block;font:600 10.5px "IBM Plex Mono",monospace;color:var(--muted);margin-bottom:6px}
+.day span{display:block;font-size:11.5px;font-weight:600;border-radius:6px;padding:3px 2px;margin-top:4px;color:#fff}
+.day .r{background:var(--pine)}.day .c{background:var(--gold)}.day .t{background:var(--slate)}.day .s{background:var(--moss)}
+.ladder{display:grid;gap:8px;margin-top:18px}
+.ladder div{display:grid;grid-template-columns:44px 150px 1fr;gap:12px;align-items:center;padding:12px 16px;border-radius:12px;background:var(--soft);border:1px solid var(--line);margin-left:calc(var(--i) * 22px)}
+.ladder b{font:600 11px "IBM Plex Mono",monospace;color:var(--gold)}
+.ladder h3{font-size:15.5px}.ladder p{margin:0;font-size:13.5px;color:var(--muted)}
+.loop{display:flex;gap:0;margin-top:16px}
+.loop div{flex:1;padding:14px 16px;border:1px solid var(--line);background:var(--soft);font-size:13.5px}
+.loop div:first-child{border-radius:12px 0 0 12px}.loop div:last-child{border-radius:0 12px 12px 0}
+.loop b{display:block;font-size:12px;font-family:"IBM Plex Mono",monospace;color:var(--gold);margin-bottom:3px}
+.map svg{width:100%;height:auto;display:block}
+.map text{font-family:"IBM Plex Sans",sans-serif;fill:var(--ink)}
+.up{position:fixed;right:18px;bottom:18px;z-index:30;width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);display:grid;place-items:center;text-decoration:none;font-size:18px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+@media(max-width:900px){
+ .slide{padding:30px 20px 42px}.cover h1{font-size:33px}
+ .idx,.g2,.g3,.g4,.pcols,.cmp,.tl{grid-template-columns:1fr}
+ .tl:before{display:none}.flow{flex-direction:column}.flow>i{transform:rotate(90deg)}
+ .bar{grid-template-columns:105px 1fr 56px}.delta{grid-template-columns:1fr}.delta div+div{border-left:0;border-top:1px solid var(--line)}
+ .fn1,.fn2,.fn3{width:100%}.tbl,.heat{font-size:11.5px}.week{grid-template-columns:repeat(4,1fr)}
+ .ladder div{grid-template-columns:34px 1fr;margin-left:0}.ladder p{grid-column:1/-1}.loop{flex-direction:column}.loop div{border-radius:0!important}
+ .ring{flex-direction:column;align-items:flex-start}.slide h2{font-size:25px}
+ .tblwrap{overflow-x:auto}
+}
+@media print{.top,.up{display:none}.slide{break-inside:avoid;page-break-after:always}}
+</style>
+</head>
+<body>
+
+<nav class="top" id="top">
+ <div class="top-in">
+  <span class="brand">COACH.BOODI</span>
+  <a href="#index">Index</a>
+  <a href="#sec-a" data-s="sec-a">Audience</a>
+  <a href="#sec-b" data-s="sec-b">Market &amp; Competitors</a>
+  <a href="#sec-c" data-s="sec-c">Brand</a>
+  <a href="#sec-d" data-s="sec-d">Content</a>
+  <a href="#sec-e" data-s="sec-e">Plan &amp; KPIs</a>
+ </div>
+</nav>
+
+<main class="wrap">
+
+<section class="slide cover" id="cover">
+ <div class="eb">Case study</div>
+ <h1>Abdelrahman Ayman - Personal Branding Strategy &amp; Content Plan</h1>
+ <div class="by">By Shady El-Refaie</div>
+ <p>A personal brand and content system for an online fitness and nutrition coach in Egypt and the Gulf, built from audience research, a review of nine leading coaches, and a clear positioning.</p>
+ <a class="btn" href="#index">Open the index</a>
+</section>
+
+<section class="slide" id="index" style="--accent:var(--gold)">
+ <div class="eb">Index</div>
+ <h2>What's inside</h2>
+ <p class="sub">Click a section or a slide title to jump straight to it.</p>
+ <div class="idx">
+  <div class="idx-card"><a href="#sec-a"><span class="n">01</span><h3>Audience</h3><p>Who we are talking to and what stops them.</p></a>
+   <ul><li><a href="#s-model">Audience model</a></li><li><a href="#s-seg">Segments</a></li><li><a href="#s-buyer">Core buyer</a></li><li><a href="#s-p1">Personas</a></li><li><a href="#s-obj">Objections</a></li></ul></div>
+  <div class="idx-card"><a href="#sec-b"><span class="n">02</span><h3>Market &amp; Competitors</h3><p>The market, nine coaches, and the gap.</p></a>
+   <ul><li><a href="#s-market">Market numbers</a></li><li><a href="#s-listen">What people say</a></li><li><a href="#s-follow">Followers and reach</a></li><li><a href="#s-heat">What coaches cover</a></li><li><a href="#s-white">The open space</a></li></ul></div>
+  <div class="idx-card"><a href="#sec-c"><span class="n">03</span><h3>Brand</h3><p>Positioning, voice and message.</p></a>
+   <ul><li><a href="#s-pers">Personality and voice</a></li><li><a href="#s-core">Core message</a></li><li><a href="#s-pov">Point of view</a></li></ul></div>
+  <div class="idx-card"><a href="#sec-d"><span class="n">04</span><h3>Content</h3><p>The system behind every post.</p></a>
+   <ul><li><a href="#s-system">Content system</a></li><li><a href="#s-pillars">Content pillars</a></li><li><a href="#s-cohorts">Cohorts</a></li><li><a href="#s-intent">Intent and series</a></li></ul></div>
+  <div class="idx-card"><a href="#sec-e"><span class="n">05</span><h3>Plan &amp; KPIs</h3><p>Publishing rhythm and how we measure.</p></a>
+   <ul><li><a href="#s-publish">Publishing rhythm</a></li><li><a href="#s-cta">Calls to action</a></li><li><a href="#s-goals">Goals and KPIs</a></li><li><a href="#s-files">Related files</a></li></ul></div>
+ </div>
+</section>
+
+<div class="sec-head" id="sec-a"><b>01</b><h2>Audience</h2><i></i></div>
+
+<section class="slide" id="s-model" style="--accent:var(--slate)">
+ <div class="eb">Audience model</div>
+ <h2>Most followers will never buy, and that's fine</h2>
+ <p class="sub">The account needs a wide audience for reach and credibility. Inside that audience sits a smaller group with a real problem, and inside that group, the people who can pay for help.</p>
+ <div class="funnel">
+  <div class="fn fn1"><h3>Content audience</h3><p>People who like fitness, physiques, training and food content. Many follow for entertainment or information.</p></div>
+  <div class="fn fn2"><h3>High-relevance segments</h3><p>A recurring problem: they quit, they lack time, an injury holds them back, or progress has stalled.</p></div>
+  <div class="fn fn3"><h3>Core buyer</h3><p>Clear problem, needs follow-up, can afford it.</p></div>
+ </div>
+ <div class="call" style="--accent:var(--slate)"><b>Decision</b><p>Keep widening reach, and build a path inside the content that lets the core buyer feel Abdelrahman understands their exact situation.</p></div>
+ <div class="no">01</div>
+</section>
+
+<section class="slide" id="s-seg" style="--accent:var(--pine)">
+ <div class="eb">Segments</div>
+ <h2>Six segments, ranked by how close they are to buying</h2>
+ <p class="sub">Scored on need for coaching, fit with Abdelrahman's service, buying intent and how much content each one can produce.</p>
+ <div class="tblwrap"><table class="tbl">
+  <thead><tr><th>Segment</th><th>Core problem</th><th>Need</th><th>Fit</th><th>Intent</th><th>Content</th><th>Priority</th></tr></thead>
+  <tbody>
+   <tr><td>Repeat starter</td><td class="l">Starts, stops, restarts</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="tag g">Primary</span></td></tr>
+   <tr><td>Busy lifestyle</td><td class="l">Work and travel break any fixed plan</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="tag g">Primary</span></td></tr>
+   <tr><td>Injury-aware</td><td class="l">Wants to return without the pain</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="tag b">High</span></td></tr>
+   <tr><td>Plateaued</td><td class="l">Trains hard, results stopped</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="tag b">High</span></td></tr>
+   <tr><td>Never started</td><td class="l">Lost in conflicting advice</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="tag b">High</span></td></tr>
+   <tr><td>GLP-1 support</td><td class="l">On weight-loss medication, wants to keep muscle</td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></td><td><span class="tag r">Emerging</span></td></tr>
+   <tr><td>Lifestyle fan</td><td class="l">Watches physiques and motivation</td><td><span class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></span></td><td><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></td><td><span class="tag">Reach only</span></td></tr>
+  </tbody>
+ </table></div>
+ <div class="no">02</div>
+</section>
+
+<section class="slide" id="s-buyer" style="--accent:var(--moss)">
+ <div class="eb">Core buyer</div>
+ <h2>Who is closest to the 12-week program</h2>
+ <p class="sub">Someone for whom information alone has already failed. Man or woman, in Egypt or the Gulf.</p>
+ <div class="g2">
+  <div class="panel">
+   <h3>What they look like</h3>
+   <ul><li>Has tried before, or is afraid of starting wrong.</li><li>Faces a constant obstacle: time, travel, eating out, an old injury.</li><li>Wants a plan built around their own life.</li><li>Can pay, and is ready to commit for 12 weeks.</li></ul>
+  </div>
+  <div class="quote" style="margin-top:0"><small>In one sentence</small><p>Someone who has tried to fix their body before, or is scared to start wrong, and can't hold a routine or fit a plan into their life. They want a clear result, and above all a personal system and follow-up that keeps them going.</p></div>
+ </div>
+ <div class="call" style="--accent:var(--moss)"><b>Why this person</b><p>Competitors win reach with workouts and physiques. The highest-value questions in their comments are about consistency, customization, pain, portions and time.</p></div>
+ <div class="no">03</div>
+</section>
+
+<section class="slide" id="s-p1" style="--accent:var(--slate)">
+ <div class="p-head"><div><div class="eb">Persona 01 · Primary</div><h2>The Restarter</h2></div><div class="rank">#1</div></div>
+ <div class="bubble">"I know how to start. I just can't keep going."</div>
+ <p class="sub" style="margin-top:14px">Has tried diets and gyms more than once. The first two weeks go perfectly. After one stressful week or a few messy days, back to zero.</p>
+ <div class="pcols">
+  <div class="pc"><h3>What they want</h3><ul><li>A system they can actually live on.</li><li>Someone who pulls them back fast after a bad week.</li><li>A sense of moving in one direction.</li></ul></div>
+  <div class="pc"><h3>What holds them back</h3><ul><li>"I tried before and didn't stick with it."</li><li>"I don't want to pay and fail again."</li><li>"I'll have to give up the food I love."</li></ul></div>
+  <div class="pc"><h3>Content that works</h3><ul><li>What to do after a ruined day.</li><li>Client stories that include real setbacks.</li><li>Getting back on track after a slip.</li></ul></div>
+ </div>
+ <div class="delta">
+  <div><b>EGYPT</b>Usually slips because of money pressure or social events. The worry: "I'll pay and fall again."</div>
+  <div><b>GULF</b>Usually slips because of frequent travel or a routine change. The worry: "Will this be any different from what I've tried?"</div>
+ </div>
+ <div class="quote"><small>Message</small><p>You don't need a stronger start. You need a system that still works on the days that go off plan.</p></div>
+ <div class="no">04</div>
+</section>
+
+<section class="slide" id="s-p2" style="--accent:var(--gold)">
+ <div class="p-head"><div><div class="eb">Persona 02 · Primary</div><h2>The Busy Professional</h2></div><div class="rank">#2</div></div>
+ <div class="bubble">"I'm busy, and I don't want my whole life to become a diet."</div>
+ <p class="sub" style="margin-top:14px">Long workdays, shifting schedules, travel and restaurant meals. Wants results without strict meal prep or a rigid training split.</p>
+ <div class="pcols">
+  <div class="pc"><h3>What they want</h3><ul><li>A flexible, clear plan.</li><li>The fewest daily decisions possible.</li><li>Options for travel and eating out.</li></ul></div>
+  <div class="pc"><h3>What holds them back</h3><ul><li>"I don't have the time."</li><li>"My schedule keeps changing."</li><li>"I can't weigh every meal."</li></ul></div>
+  <div class="pc"><h3>Content that works</h3><ul><li>Restaurant and travel eating.</li><li>30 to 45 minute workouts.</li><li>"If your week falls apart, here's what we change."</li></ul></div>
+ </div>
+ <div class="delta">
+  <div><b>EGYPT</b>Busy means long hours, commuting and money pressure. Content should give tools for a packed day.</div>
+  <div><b>GULF</b>Busy can mean the opposite: drivers, help at home, delivery food. Inactivity comes from comfort, so the message needs a reason to move.</div>
+ </div>
+ <div class="quote"><small>Message</small><p>The right plan fits inside your life and keeps working when your week gets messy.</p></div>
+ <div class="no">05</div>
+</section>
+
+<section class="slide" id="s-p3" style="--accent:var(--clay)">
+ <div class="p-head"><div><div class="eb">Persona 03 · High potential</div><h2>The Careful Returner</h2></div><div class="rank">#3</div></div>
+ <div class="bubble">"I want to get back to training without hurting myself again."</div>
+ <p class="sub" style="margin-top:14px">Has had pain or an injury, such as a disc problem. Doesn't want to stop, but needs confidence in what to do and how.</p>
+ <div class="pcols">
+  <div class="pc"><h3>What they want</h3><ul><li>Clear technique and progression.</li><li>Alternatives to the movements that hurt.</li><li>A gradual return instead of a full stop.</li></ul></div>
+  <div class="pc"><h3>What holds them back</h3><ul><li>"How can an online coach know my condition?"</li><li>"Do I need treatment, not training?"</li><li>"Everyone gives me different advice."</li></ul></div>
+  <div class="pc"><h3>Content that works</h3><ul><li>Mobility and warm-ups for specific problems.</li><li>Exercise swaps for disc issues.</li><li>When to stop and see a doctor.</li></ul></div>
+ </div>
+ <div class="delta">
+  <div><b>EGYPT</b>Hesitation comes from the cost of physiotherapy, so they look for a cheaper way to train safely.</div>
+  <div><b>GULF</b>Hesitation comes from too many conflicting opinions. They need someone to settle the decision.</div>
+ </div>
+ <div class="quote"><small>Message</small><p>Come back with a plan that knows what your body needs, when to add load and when to adjust.</p></div>
+ <div class="no">06</div>
+</section>
+
+<section class="slide" id="s-more" style="--accent:var(--plum)">
+ <div class="eb">Personas 04 to 06</div>
+ <h2>Three more people in the audience</h2>
+ <div class="g3">
+  <div class="panel"><span class="tag b">#4 · High potential</span><h3 style="margin-top:10px">The Stuck Trainee</h3><div class="bubble" style="font-size:15px;margin-top:8px">"I train, but I'm not changing."</div><p style="margin-top:10px">Knows the gym. Needs to understand why results stopped: the program, food, recovery or execution.</p><p style="margin-top:8px"><b>What sells:</b> showing the thinking behind a plan, and tracking with real numbers.</p></div>
+  <div class="panel"><span class="tag b">#5 · High potential</span><h3 style="margin-top:10px">The Overwhelmed Beginner</h3><div class="bubble" style="font-size:15px;margin-top:8px">"Everyone says something different. Where do I start?"</div><p style="margin-top:10px">Decided to take care of their body, but keeps postponing under a pile of contradicting advice.</p><p style="margin-top:8px"><b>What sells:</b> one clear first step, and someone who sets the priorities.</p></div>
+  <div class="panel"><span class="tag r">#6 · Emerging</span><h3 style="margin-top:10px">The Medication Supporter</h3><div class="bubble" style="font-size:15px;margin-top:8px">"I'm on a weight-loss drug. I don't want to lose my muscle."</div><p style="margin-top:10px">Takes or considers a GLP-1 drug on medical advice, and wants to protect muscle, shape and health.</p><p style="margin-top:8px"><b>Red line:</b> the natural route comes first. The drug is a decision for the doctor. Our role is support only.</p></div>
+ </div>
+ <div class="no">07</div>
+</section>
+
+<section class="slide" id="s-obj" style="--accent:var(--clay)">
+ <div class="eb">Objections</div>
+ <h2>The same doubts show up across several personas</h2>
+ <p class="sub">Each dot marks a persona who raises that doubt. Doubts that hit three or more personas become content for several segments at once.</p>
+ <div class="tblwrap"><table class="tbl">
+  <thead><tr><th>Doubt</th><th>01</th><th>02</th><th>03</th><th>04</th><th>05</th><th>06</th></tr></thead>
+  <tbody>
+   <tr><td>"Will this plan fit my life?"</td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td></tr>
+   <tr><td>"Can I trust an online coach?"</td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td></tr>
+   <tr><td>"I tried before and it failed."</td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td></tr>
+   <tr><td>"Do I even need a coach?"</td><td></td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td></tr>
+   <tr><td>"Is it worth the price?"</td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td></tr>
+   <tr><td>"What about family meals and social life?"</td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td></tr>
+   <tr><td>"Is it safe for my body?"</td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td><td></td><td></td><td><span class="dots" style="--accent:var(--clay)"><i class="on"></i></span></td></tr>
+  </tbody>
+ </table></div>
+ <div class="g2">
+  <div class="panel soft"><h3>Price reads differently by market</h3><p>In Egypt the question is "can I afford it?". In the Gulf the same number is fair, and the question becomes "does cheap mean lower quality?".</p></div>
+  <div class="panel soft"><h3>Status shapes the choice in the Gulf</h3><p>Some buyers pick the best-known coach rather than the best fit. Results and method need to be visible, because nationality alone is not proof.</p></div>
+ </div>
+ <div class="no">08</div>
+</section>
+
+<div class="sec-head" id="sec-b"><b>02</b><h2>Market &amp; Competitors</h2><i></i></div>
+
+<section class="slide" id="s-market" style="--accent:var(--pine)">
+ <div class="eb">Market numbers</div>
+ <h2>A huge audience with a behavior problem</h2>
+ <p class="sub">People in Egypt don't lack information. They struggle to keep a routine inside a food-centered, mostly sedentary life.</p>
+ <div class="g3">
+  <div class="ring" style="--accent:var(--clay)">
+   <svg width="92" height="92" viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--line)" stroke-width="4"/><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--clay)" stroke-width="4" stroke-dasharray="44.3 100" stroke-linecap="round" transform="rotate(-90 18 18)"/></svg>
+   <div><b>44.3%</b><span>of Egyptian adults are obese, the highest rate among Arab countries (FAO, 2024)</span></div>
+  </div>
+  <div class="ring" style="--accent:var(--plum)">
+   <svg width="92" height="92" viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--line)" stroke-width="4"/><circle cx="18" cy="18" r="15.9" fill="none" stroke="var(--plum)" stroke-width="4" stroke-dasharray="76 100" stroke-linecap="round" transform="rotate(-90 18 18)"/></svg>
+   <div><b>76%</b><span>of Egyptian women aged 20 to 49 are overweight or obese (EDHS)</span></div>
+  </div>
+  <div class="bigstat" style="--accent:var(--slate)"><b>48.8M</b><span>TikTok users over 18 in Egypt, late 2025</span></div>
+ </div>
+ <h3 style="margin-top:28px;font-size:18px">Trending from May to August 2026</h3>
+ <div class="g4" style="margin-top:12px">
+  <div class="panel soft"><span class="tag o">Gulf first</span><h3 style="margin-top:8px">GLP-1 drugs</h3><p>They dominate health talk in the Gulf. "What do I do after the drug?" is still open.</p></div>
+  <div class="panel soft"><span class="tag b">Global</span><h3 style="margin-top:8px">Pilates and low-intensity</h3><p>Gentler training spread worldwide and is now visible in the region.</p></div>
+  <div class="panel soft"><span class="tag b">Global</span><h3 style="margin-top:8px">Protein everything</h3><p>High-protein snacks and shakes replacing meals.</p></div>
+  <div class="panel soft"><span class="tag g">Both</span><h3 style="margin-top:8px">Deinfluencing</h3><p>Myth-busting and honesty get more engagement than hype.</p></div>
+ </div>
+ <div class="no">09</div>
+</section>
+
+<section class="slide" id="s-listen" style="--accent:var(--slate)">
+ <div class="eb">Social listening</div>
+ <h2>What people say, and what stops them</h2>
+ <div class="g3">
+  <div class="bubble" style="margin-top:20px">"I lose weight and gain it back the moment I eat out with friends."</div>
+  <div class="bubble" style="margin-top:20px">"How do I know he isn't selling me the same plan he sells everyone?"</div>
+  <div class="bubble" style="margin-top:20px">"I don't want to give up koshari forever just to be healthy."</div>
+ </div>
+ <div class="g2">
+  <div class="panel">
+   <h3>Topics that keep coming up</h3>
+   <div class="chips" style="margin-top:8px"><span class="chip">Weight coming back after a diet</span><span class="chip">Conflicting advice</span><span class="chip">Losing motivation</span><span class="chip">Not enough time</span><span class="chip">Cost</span><span class="chip">Body shaming</span><span class="chip">Weight after childbirth</span><span class="chip">Fear of extreme methods</span></div>
+  </div>
+  <div class="panel">
+   <h3>What blocks the start or the follow-through</h3>
+   <ul style="list-style:none;padding:0"><li><span class="tag o">Money</span> Coaching feels like a luxury under inflation.</li><li><span class="tag r">Mind</span> Fear of failing again after past relapses.</li><li><span class="tag b">Social</span> Refusing food costs you socially.</li><li><span class="tag g">Place</span> Little time, and fewer safe places to train, especially for women.</li><li><span class="tag">Trust</span> Fear of scams and copied plans.</li></ul>
+  </div>
+ </div>
+ <div class="no">10</div>
+</section>
+
+<section class="slide" id="s-follow" style="--accent:var(--plum)">
+ <div class="eb">Followers and reach</div>
+ <h2>Nine coaches, and a big gap in size</h2>
+ <p class="sub">Instagram followers, checked on each account. The aim is a different position from day one, not matching these numbers.</p>
+ <div style="margin-top:18px">
+  <div class="bar"><span>Haitham Salama</span><div class="t"><i style="width:100%"></i></div><b>1M</b></div>
+  <div class="bar"><span>InForma</span><div class="t"><i style="width:66%"></i></div><b>660K</b></div>
+  <div class="bar"><span>Moataz Hafez</span><div class="t"><i style="width:63%"></i></div><b>634K</b></div>
+  <div class="bar"><span>Sam Samouy</span><div class="t"><i style="width:58%"></i></div><b>581K</b></div>
+  <div class="bar"><span>Khaled El-Sakka</span><div class="t"><i style="width:57%"></i></div><b>569K</b></div>
+  <div class="bar"><span>Omar El-Ghaly</span><div class="t"><i style="width:44%"></i></div><b>435K</b></div>
+  <div class="bar"><span>Kareem Gebrael</span><div class="t"><i style="width:37%"></i></div><b>373K</b></div>
+  <div class="bar"><span>Ziad El-Sakka</span><div class="t"><i style="width:36%"></i></div><b>355K</b></div>
+  <div class="bar me"><span>Abdelrahman</span><div class="t"><i style="width:2%"></i></div><b>16.4K</b></div>
+ </div>
+ <h3 style="margin-top:30px;font-size:18px">Best Reel in the review window (views)</h3>
+ <p class="sub" style="margin-top:4px">A single Reel can reach many times a coach's follower count. Ahmed Hatem, with only five posts, hit 5.5M.</p>
+ <div style="margin-top:12px">
+  <div class="bar"><span>InForma</span><div class="t"><i style="width:100%;background:var(--gold)"></i></div><b>5.5M</b></div>
+  <div class="bar"><span>Ahmed Hatem</span><div class="t"><i style="width:100%;background:var(--gold)"></i></div><b>5.5M</b></div>
+  <div class="bar"><span>Moataz Hafez</span><div class="t"><i style="width:60%;background:var(--gold)"></i></div><b>3.3M</b></div>
+  <div class="bar"><span>Kareem Gebrael</span><div class="t"><i style="width:58%;background:var(--gold)"></i></div><b>3.2M</b></div>
+  <div class="bar"><span>Omar El-Ghaly</span><div class="t"><i style="width:56%;background:var(--gold)"></i></div><b>3.1M</b></div>
+  <div class="bar"><span>Sam Samouy</span><div class="t"><i style="width:53%;background:var(--gold)"></i></div><b>2.9M</b></div>
+  <div class="bar"><span>Khaled El-Sakka</span><div class="t"><i style="width:47%;background:var(--gold)"></i></div><b>2.6M</b></div>
+  <div class="bar"><span>Haitham Salama</span><div class="t"><i style="width:20%;background:var(--gold)"></i></div><b>1.1M</b></div>
+  <div class="bar"><span>Ziad El-Sakka</span><div class="t"><i style="width:13%;background:var(--gold)"></i></div><b>0.74M</b></div>
+ </div>
+ <div class="no">11</div>
+</section>
+
+<section class="slide" id="s-heat" style="--accent:var(--pine)">
+ <div class="eb">What coaches cover</div>
+ <h2>Everyone teaches training. Almost no one owns consistency</h2>
+ <p class="sub">How strongly each coach covers five content areas, based on the content review. Darker means stronger.</p>
+ <div class="tblwrap"><table class="heat">
+  <thead><tr><th></th><th>Training &amp; technique</th><th>Nutrition</th><th>Mindset &amp; consistency</th><th>Humor &amp; entertainment</th><th>Transformations</th></tr></thead>
+  <tbody>
+   <tr><td>Haitham Salama</td><td class="c3"></td><td class="c2"></td><td class="c2"></td><td class="c0"></td><td class="c1"></td></tr>
+   <tr><td>InForma</td><td class="c2"></td><td class="c3"></td><td class="c2"></td><td class="c2"></td><td class="c0"></td></tr>
+   <tr><td>Omar El-Ghaly</td><td class="c3"></td><td class="c2"></td><td class="c3"></td><td class="c0"></td><td class="c2"></td></tr>
+   <tr><td>Kareem Gebrael</td><td class="c3"></td><td class="c3"></td><td class="c3"></td><td class="c0"></td><td class="c0"></td></tr>
+   <tr><td>Ziad El-Sakka</td><td class="c3"></td><td class="c1"></td><td class="c2"></td><td class="c0"></td><td class="c2"></td></tr>
+   <tr><td>Sam Samouy</td><td class="c3"></td><td class="c2"></td><td class="c0"></td><td class="c3"></td><td class="c0"></td></tr>
+   <tr><td>Moataz Hafez</td><td class="c3"></td><td class="c3"></td><td class="c2"></td><td class="c3"></td><td class="c0"></td></tr>
+   <tr><td>Khaled El-Sakka</td><td class="c3"></td><td class="c1"></td><td class="c0"></td><td class="c0"></td><td class="c3"></td></tr>
+   <tr><td>Ahmed Hatem</td><td class="c3"></td><td class="c1"></td><td class="c0"></td><td class="c3"></td><td class="c0"></td></tr>
+   <tr><td style="color:var(--gold)">Abdelrahman (target)</td><td class="c2"></td><td class="c3"></td><td class="me"></td><td class="c1"></td><td class="c3"></td></tr>
+  </tbody>
+ </table></div>
+ <div class="legend"><span><i style="background:var(--h0)"></i>Little or none</span><span><i style="background:var(--h1)"></i>Light</span><span><i style="background:var(--h2)"></i>Medium</span><span><i style="background:var(--h3)"></i>Strong</span><span><i style="background:repeating-linear-gradient(45deg,transparent 0 3px,var(--gold) 3px 5px);border:1px dashed var(--gold)"></i>The space to own</span></div>
+ <div class="call" style="--accent:var(--pine)"><b>What it shows</b><p>Training is crowded and nutrition is thin. Mindset and consistency, the thing the audience struggles with most, is covered strongly by only two of the nine.</p></div>
+ <div class="no">12</div>
+</section>
+
+<section class="slide" id="s-patterns" style="--accent:var(--slate)">
+ <div class="eb">Patterns</div>
+ <h2>Six things the nine coaches have in common</h2>
+ <div class="g3">
+  <div class="panel"><div class="num">01</div><h3>Specific beats general</h3><p>A full routine, a clear mistake or one step to try today gets saved and shared the most.</p></div>
+  <div class="panel"><div class="num">02</div><h3>Entertainment widens reach</h3><p>Comedy, values and trends outperform pure education for most of them.</p></div>
+  <div class="panel"><div class="num">03</div><h3>A physique alone isn't enough</h3><p>It works best as proof inside a clear idea.</p></div>
+  <div class="panel"><div class="num">04</div><h3>The best Reels don't sell</h3><p>Top posts bring reach, and the selling sits in the bio or WhatsApp.</p></div>
+  <div class="panel"><div class="num">05</div><h3>Comments are an idea bank</h3><p>Questions about technique, consistency and alternatives are rarely turned into series.</p></div>
+  <div class="panel"><div class="num">06</div><h3>Trust is visual</h3><p>Look, execution and client results come before scientific references.</p></div>
+ </div>
+ <div class="no">13</div>
+</section>
+
+<section class="slide" id="s-white" style="--accent:var(--slate)">
+ <div class="eb">The open space</div>
+ <h2>The angle nobody has taken</h2>
+ <p class="sub">InForma is closest to Abdelrahman's niche, but leads with science and physique. The psychology of sticking to a plan is left open.</p>
+ <div class="g2" style="align-items:center">
+  <div class="map">
+   <svg viewBox="0 0 520 380" role="img" aria-label="Positioning map of the nine coaches and the target position">
+    <rect x="50" y="10" width="460" height="320" rx="10" fill="var(--soft)" stroke="var(--line)"/>
+    <line x1="280" y1="10" x2="280" y2="330" stroke="var(--line)" stroke-dasharray="4 4"/>
+    <line x1="50" y1="170" x2="510" y2="170" stroke="var(--line)" stroke-dasharray="4 4"/>
+    <rect x="300" y="24" width="196" height="132" rx="14" fill="color-mix(in srgb,var(--gold) 12%,transparent)" stroke="var(--gold)" stroke-dasharray="5 4"/>
+    <text x="398" y="146" text-anchor="middle" font-size="11" style="fill:var(--gold);font-weight:600">Open space</text>
+    <g font-size="11.5">
+     <circle cx="118" cy="268" r="6" fill="var(--pine)"/><text x="128" y="272">Ahmed Hatem</text>
+     <circle cx="160" cy="298" r="6" fill="var(--pine)"/><text x="170" y="302">Sam Samouy</text>
+     <circle cx="204" cy="238" r="6" fill="var(--pine)"/><text x="214" y="242">Moataz</text>
+     <circle cx="96" cy="222" r="6" fill="var(--pine)"/><text x="106" y="226">Omar</text>
+     <circle cx="136" cy="190" r="6" fill="var(--pine)"/><text x="146" y="194">Khaled</text>
+     <circle cx="108" cy="140" r="6" fill="var(--pine)"/><text x="118" y="144">Haitham</text>
+     <circle cx="182" cy="206" r="6" fill="var(--pine)"/><text x="192" y="210">Ziad</text>
+     <circle cx="262" cy="190" r="6" fill="var(--pine)"/><text x="272" y="194">InForma</text>
+     <circle cx="300" cy="226" r="6" fill="var(--pine)"/><text x="310" y="230">Kareem</text>
+     <path d="M440 78 l7 14 15 2 -11 10 3 15 -14 -7 -14 7 3 -15 -11 -10 15 -2z" fill="var(--clay)"/>
+     <text x="440" y="130" text-anchor="middle" style="font-weight:700;fill:var(--clay)">Abdelrahman</text>
+    </g>
+    <text x="280" y="355" text-anchor="middle" font-size="11.5" style="fill:var(--muted)">Leads with physique and technique  →  Leads with behavior and consistency</text>
+    <text transform="rotate(-90 20 170)" x="20" y="170" text-anchor="middle" font-size="11.5" style="fill:var(--muted)">Reach-led  →  Trust-led</text>
+   </svg>
+   <p style="font-size:12px;color:var(--muted);margin:6px 0 0">Illustrative placement from the content review.</p>
+  </div>
+  <div>
+   <div class="call" style="--accent:var(--slate);margin-top:0"><b>Positioning</b><p>High trust and transparency, depth on the psychology of consistency, and time-efficient plans for busy people. All nine coaches are weak in these three areas.</p></div>
+   <div class="g2" style="margin-top:14px">
+    <div class="panel"><div class="num">1</div><h3>Why you quit</h3><p>Short stories about relapse, ending with one small fix.</p></div>
+    <div class="panel"><div class="num">2</div><h3>Myth and its root</h3><p>Break the myth, then name the emotional cause.</p></div>
+    <div class="panel"><div class="num">3</div><h3>Honest transformations</h3><p>Real journeys with plateaus, and a clear word on faked photos.</p></div>
+    <div class="panel"><div class="num">4</div><h3>Behind the coaching</h3><p>Answering real DM questions on camera.</p></div>
+   </div>
+  </div>
+ </div>
+ <div class="no">14</div>
+</section>
+
+<section class="slide" id="s-takeleave" style="--accent:var(--clay)">
+ <div class="eb">Direction</div>
+ <h2>What to borrow, and what to skip</h2>
+ <div class="cmp">
+  <div class="panel soft"><h3>Borrow</h3><ul><li>A clear idea in the first second: one hook, one problem, one result.</li><li>Practical content people want to save.</li><li>Real personality and presence.</li><li>A mix of teaching, stories, lifestyle and proof.</li></ul></div>
+  <div class="panel soft"><h3>Skip</h3><ul><li>The same routine in the same template, with only the muscle changed.</li><li>Reach that has nothing to do with the service.</li><li>A CTA stuck on the end of the caption.</li><li>Physique content with no client results behind it.</li></ul></div>
+ </div>
+ <div class="quote"><small>The opportunity</small><p>A <b>practical, human personal brand</b>: content people save, a personality they remember, and a natural link to the service that brings the right leads.</p></div>
+ <div class="no">15</div>
+</section>
+
+<div class="sec-head" id="sec-c"><b>03</b><h2>Brand</h2><i></i></div>
+
+<section class="slide" id="s-pers" style="--accent:var(--gold)">
+ <div class="eb">Personality and voice</div>
+ <h2>How he thinks and how he sounds</h2>
+ <div class="quote"><small>Brand vision</small><p>Abdelrahman becomes a <b>trusted voice in fitness and nutrition</b>, known for making a real difference in people's lives through honest, practical, supportive coaching.</p></div>
+ <div class="g2">
+  <div>
+   <div class="g2" style="margin-top:14px">
+    <div class="panel"><h3>Keeps it simple</h3><p>Makes training and food easier to understand.</p></div>
+    <div class="panel"><h3>Keeps people going</h3><p>Helps when motivation dips, without pressure.</p></div>
+   </div>
+   <div class="panel" style="margin-top:14px"><h3>Refuses one plan for everyone</h3><p>Bodies, schedules and tastes differ, so plans should too.</p></div>
+  </div>
+  <div class="panel soft" style="margin-top:14px">
+   <h3>Voice</h3>
+   <div class="sl"><div class="lab"><span>Playful</span><span>Serious</span></div><div class="rail"><i style="left:38%"></i></div></div>
+   <div class="sl"><div class="lab"><span>Expert</span><span>Friend</span></div><div class="rail"><i style="left:68%"></i></div></div>
+   <div class="sl"><div class="lab"><span>Gentle</span><span>Direct</span></div><div class="rail"><i style="left:72%"></i></div></div>
+   <p style="margin-top:6px">Calm and confident. Direct when correcting wrong information. Friendly, with light humor when it fits.</p>
+  </div>
+ </div>
+ <div class="no">16</div>
+</section>
+
+<section class="slide" id="s-core" style="--accent:var(--plum)">
+ <div class="eb">Core message</div>
+ <h2>A plan that fits you, and that you can keep following</h2>
+ <div class="quote"><small>Core message</small><p>The result you want doesn't need a rigid system. It needs a plan that fits your body, your life and your level, and one you can realistically keep following for 90 days.</p></div>
+ <div class="g3">
+  <div class="panel"><div class="num">1</div><h3>A plan made for you</h3><p>Built around your body, schedule, level, health and preferences.</p></div>
+  <div class="panel"><div class="num">2</div><h3>A slip is a normal part of it</h3><p>If you fall off in the middle of the plan, we adjust it and keep going.</p></div>
+  <div class="panel"><div class="num">3</div><h3>We do it together</h3><p>Regular follow-up, clear guidance and realistic adjustments.</p></div>
+ </div>
+ <div class="call" style="--accent:var(--plum)"><b>What proves it</b><p>Client stories, check-ins and examples of a plan being changed when life changed.</p></div>
+ <div class="no">17</div>
+</section>
+
+<section class="slide" id="s-pov" style="--accent:var(--moss)">
+ <div class="eb">Point of view</div>
+ <h2>What he believes, and how it becomes messages</h2>
+ <div class="g2">
+  <div class="panel"><ul><li>The best plan is the one you can keep following.</li><li>People usually need a simpler system, not more motivation.</li><li>Diet and training should adapt to the person.</li><li>A slip in the middle is a moment to review and adjust.</li></ul></div>
+  <div class="panel"><ul><li>Follow-up and adjustment matter more than a fixed plan.</li><li>A fast result is worth little if it can't last.</li><li>The scale is one signal, not the only measure.</li><li>The psychology of sticking to it deserves as much attention as food and training.</li></ul></div>
+ </div>
+ <div class="ladder">
+  <div style="--i:0"><b>01</b><h3>Problem</h3><p>"Maybe the plan doesn't suit your life."</p></div>
+  <div style="--i:1"><b>02</b><h3>Belief</h3><p>"Consistency is easier when the plan is realistic."</p></div>
+  <div style="--i:2"><b>03</b><h3>Solution</h3><p>"You need a plan that changes with your schedule."</p></div>
+  <div style="--i:3"><b>04</b><h3>Method</h3><p>Assessment, a custom plan, follow-up and adjustments over 90 days.</p></div>
+  <div style="--i:4"><b>05</b><h3>Proof</h3><p>Client stories, check-ins, plan changes and results.</p></div>
+  <div style="--i:5"><b>06</b><h3>Next step</h3><p>A DM, or an application, once the intent is clear.</p></div>
+ </div>
+ <p style="font-size:13px;color:var(--muted);margin-top:12px">Not every post follows this order. One content pillar can carry several of these messages.</p>
+ <div class="no">18</div>
+</section>
+
+<div class="sec-head" id="sec-d"><b>04</b><h2>Content</h2><i></i></div>
+
+<section class="slide" id="s-system" style="--accent:var(--pine)">
+ <div class="eb">Content system</div>
+ <h2>Every post comes from the same six questions</h2>
+ <div class="g3">
+  <div class="panel soft"><h3>Pillars</h3><p>What do we talk about?</p></div>
+  <div class="panel soft"><h3>Cohorts</h3><p>Who are we talking to?</p></div>
+  <div class="panel soft"><h3>Messages</h3><p>What do we want to say?</p></div>
+  <div class="panel soft"><h3>Intent</h3><p>What should the post do?</p></div>
+  <div class="panel soft"><h3>Series</h3><p>What deserves to repeat?</p></div>
+  <div class="panel soft"><h3>Format</h3><p>How do we present it?</p></div>
+ </div>
+ <div class="fx"><span>Cohort: mothers with young kids</span><em>×</em><span>Pillar: Mindset</span><em>×</em><span>Message: Belief</span><em>×</em><span>Intent: Trust</span><em>×</em><span>Format: Talking head</span><em>=</em><span class="res">One idea</span></div>
+ <div class="call" style="--accent:var(--pine)"><b>The idea that comes out</b><p>"Your day doesn't have to be perfect for you to stay consistent. The right plan makes room for kids and an unpredictable schedule."</p></div>
+ <div class="no">19</div>
+</section>
+
+<section class="slide" id="s-pillars" style="--accent:var(--gold)">
+ <div class="eb">Content pillars</div>
+ <h2>Seven topics he keeps coming back to</h2>
+ <div class="g4">
+  <div class="panel"><div class="num">01</div><h3>Nutrition in real life</h3><p>Swaps, eating out, family meals, hunger.</p><p style="margin-top:8px"><span class="tag g">Saves + shares</span></p></div>
+  <div class="panel"><div class="num">02</div><h3>Training that fits you</h3><p>Home or gym, technique, exercise swaps.</p><p style="margin-top:8px"><span class="tag b">Authority</span></p></div>
+  <div class="panel"><div class="num">03</div><h3>Mindset and consistency</h3><p>Boredom, relapse, comparison, building a routine.</p><p style="margin-top:8px"><span class="tag o">Sets him apart</span></p></div>
+  <div class="panel"><div class="num">04</div><h3>Coaching and personalization</h3><p>Assessment, check-ins, why two plans differ.</p><p style="margin-top:8px"><span class="tag r">Leads + proof</span></p></div>
+  <div class="panel"><div class="num">05</div><h3>Transformation and real life</h3><p>Client stories and change beyond the scale.</p><p style="margin-top:8px"><span class="tag g">Proof + trust</span></p></div>
+  <div class="panel"><div class="num">06</div><h3>Story and point of view</h3><p>His injury, his experience, his day as a coach.</p><p style="margin-top:8px"><span class="tag b">Connection</span></p></div>
+  <div class="panel"><div class="num">07</div><h3>Community and Q&amp;A</h3><p>Audience questions, polls, challenges.</p><p style="margin-top:8px"><span class="tag o">Community + research</span></p></div>
+  <div class="panel soft" style="display:flex;align-items:center;justify-content:center;text-align:center"><p style="font-weight:500;color:var(--ink)">Each pillar serves at least one job: reach, trust or a buyer's question.</p></div>
+ </div>
+ <div class="no">20</div>
+</section>
+
+<section class="slide" id="s-cohorts" style="--accent:var(--slate)">
+ <div class="eb">Cohorts</div>
+ <h2>Cohorts decide who a post speaks to</h2>
+ <p class="sub">A cohort is a situation, not a topic. The same pillar can be aimed at different cohorts.</p>
+ <div class="g3">
+  <div class="panel"><h3>Lifestyle</h3><div class="chips"><span class="chip">Busy people</span><span class="chip">Work from home</span><span class="chip">Mothers</span><span class="chip">Frequent travelers</span><span class="chip">Shift workers</span></div></div>
+  <div class="panel"><h3>Condition</h3><div class="chips"><span class="chip">Specific injuries</span><span class="chip">Insulin resistance</span><span class="chip">Pregnancy and postpartum</span><span class="chip">Mobility limits</span></div></div>
+  <div class="panel"><h3>Stage</h3><div class="chips"><span class="chip">Beginner</span><span class="chip">Starts and stops</span><span class="chip">Weight stuck</span><span class="chip">Lost then regained</span><span class="chip">Close to the goal</span></div></div>
+ </div>
+ <div class="tblwrap"><table class="tbl">
+  <thead><tr><th>Pillar</th><th>Problem</th><th>Belief</th><th>Method</th><th>Proof</th><th>Objection</th></tr></thead>
+  <tbody>
+   <tr><td>Nutrition</td><td class="l">The plan is hard to live on</td><td class="l">Practical beats perfect</td><td class="l">How we adapt the food</td><td class="l">A client case</td><td class="l">"I eat with my family"</td></tr>
+   <tr><td>Training</td><td class="l">The schedule is bigger than your time</td><td class="l">You don't need 6 days</td><td class="l">Choosing exercises</td><td class="l">A real plan change</td><td class="l">"I have no gym"</td></tr>
+   <tr><td>Mindset</td><td class="l">You start and stop</td><td class="l">Willpower isn't the whole story</td><td class="l">Handling a relapse</td><td class="l">A client's story</td><td class="l">"I'm not disciplined"</td></tr>
+   <tr><td>Personalization</td><td class="l">The plan isn't made for you</td><td class="l">Same goal, different plan</td><td class="l">Assessment and adjustments</td><td class="l">Two plans, one goal</td><td class="l">"Online won't understand me"</td></tr>
+  </tbody>
+ </table></div>
+ <div class="no">21</div>
+</section>
+
+<section class="slide" id="s-intent" style="--accent:var(--clay)">
+ <div class="eb">Intent and series</div>
+ <h2>Each post has a job, and every month mixes all three</h2>
+ <div class="g2" style="align-items:center">
+  <div>
+   <div class="donut d-intent"></div>
+   <div class="leg"><span style="--c:var(--slate)">Discovery 45%</span><span style="--c:var(--moss)">Trust 35%</span><span style="--c:var(--clay)">Conversion 20%</span></div>
+  </div>
+  <div style="display:grid;gap:10px">
+   <div class="panel"><h3>Discovery</h3><p>Familiar problems, opinions, myths, anything worth sharing.</p></div>
+   <div class="panel"><h3>Trust</h3><p>Teaching, method, proof, client stories.</p></div>
+   <div class="panel"><h3>Conversion</h3><p>Doubts, program details, results, a direct CTA when the moment fits.</p></div>
+  </div>
+ </div>
+ <h3 style="margin-top:30px;font-size:18px">Series, in the order they launch</h3>
+ <div class="tl" style="--accent:var(--clay)">
+  <div><b>Launch now</b><span>True or false?<br>You slipped? Here's how to continue<br>If you have no time</span></div>
+  <div><b>After the first month</b><span>Why we changed the plan<br>Same goal, different plan</span></div>
+  <div><b>When ready</b><span>Pregnancy and postpartum<br>Specific injuries<br>Sensitive health cohorts</span></div>
+ </div>
+ <div class="no">22</div>
+</section>
+
+<div class="sec-head" id="sec-e"><b>05</b><h2>Plan &amp; KPIs</h2><i></i></div>
+
+<section class="slide" id="s-publish" style="--accent:var(--pine)">
+ <div class="eb">Publishing rhythm</div>
+ <h2>How often, and what each platform is for</h2>
+ <div class="g2" style="align-items:start">
+  <div class="panel">
+   <h3>Starting rhythm per week</h3>
+   <div class="bar" style="grid-template-columns:120px 1fr 80px"><span>IG Reels</span><div class="t"><i style="width:80%"></i></div><b>3 to 5</b></div>
+   <div class="bar" style="grid-template-columns:120px 1fr 80px"><span>Carousels</span><div class="t"><i style="width:20%;background:var(--gold)"></i></div><b>1</b></div>
+   <div class="bar" style="grid-template-columns:120px 1fr 80px"><span>Stories</span><div class="t"><i style="width:100%;background:var(--moss)"></i></div><b>5 to 7 days</b></div>
+   <div class="bar" style="grid-template-columns:120px 1fr 80px"><span>TikTok</span><div class="t"><i style="width:90%;background:var(--slate)"></i></div><b>4 to 6</b></div>
+  </div>
+  <div class="panel">
+   <h3>Feed mix</h3>
+   <div class="donut d-feed" style="width:130px;height:130px"></div>
+   <div class="leg"><span style="--c:var(--pine)">Reels 80%</span><span style="--c:var(--gold)">Carousels and photos 20%</span></div>
+   <p style="margin-top:8px;text-align:center;font-size:13px">Today: Reels 74%, photos and carousels 26%</p>
+  </div>
+ </div>
+ <h3 style="margin-top:26px;font-size:18px">A sample week</h3>
+ <div class="week">
+  <div class="day"><small>MON</small><span class="r">Reel</span><span class="t">TikTok</span><span class="s">Stories</span></div>
+  <div class="day"><small>TUE</small><span class="t">TikTok</span><span class="s">Stories</span></div>
+  <div class="day"><small>WED</small><span class="r">Reel</span><span class="t">TikTok</span><span class="s">Stories</span></div>
+  <div class="day"><small>THU</small><span class="c">Carousel</span><span class="s">Stories</span></div>
+  <div class="day"><small>FRI</small><span class="r">Reel</span><span class="t">TikTok</span><span class="s">Stories</span></div>
+  <div class="day"><small>SAT</small><span class="r">Reel</span><span class="t">TikTok</span><span class="s">Stories</span></div>
+  <div class="day"><small>SUN</small><span class="t">TikTok</span><span class="s">Stories</span></div>
+ </div>
+ <p style="font-size:13px;color:var(--muted);margin-top:10px">Days are a starting point. After four weeks of Insights data we test two or three posting windows and keep the best.</p>
+ <div class="g2">
+  <div class="panel soft"><h3>Instagram</h3><p>Builds the relationship and trust. Reels for reach, Stories for daily contact and conversion, carousels for content worth saving.</p></div>
+  <div class="panel soft"><h3>TikTok</h3><p>A place to test ideas and hooks quickly and reach new people. Ideas that work move over to Instagram and get developed there.</p></div>
+ </div>
+ <div class="no">23</div>
+</section>
+
+<section class="slide" id="s-cta" style="--accent:var(--moss)">
+ <div class="eb">Calls to action</div>
+ <h2>Pick the CTA that matches the post</h2>
+ <p class="sub">These are options, not stages. A viewer doesn't have to move through them in order.</p>
+ <div class="g4">
+  <div class="panel"><h3>CTV</h3><p>Send them to more content, like a related video.</p></div>
+  <div class="panel"><h3>CTB</h3><p>Bring them closer to the brand, like following a series.</p></div>
+  <div class="panel"><h3>Engage</h3><p>Save, share, comment or follow.</p></div>
+  <div class="panel"><h3>Convert</h3><p>DM or apply, using a specific keyword.</p></div>
+ </div>
+ <div class="flow">
+  <div><small>Discovery</small>Share · Save · Follow · CTV</div><i>→</i>
+  <div><small>Trust</small>Comment · CTB · Reply</div><i>→</i>
+  <div class="em"><small>Conversion</small>DM · Apply</div>
+ </div>
+ <div class="g3">
+  <div class="panel soft"><h3>Video style</h3><p>Talking to camera, coaching in action, demonstrations, client cases.</p></div>
+  <div class="panel soft"><h3>Editing</h3><p>Clear pacing, subtitles, quick cuts, and a payoff that arrives on time.</p></div>
+  <div class="panel soft"><h3>Look and feel</h3><p>Eye-level camera, short on-screen text, consistent thumbnails and a bank of reusable B-roll.</p></div>
+ </div>
+ <div class="no">24</div>
+</section>
+
+<section class="slide" id="s-goals" style="--accent:var(--gold)">
+ <div class="eb">Goals and KPIs</div>
+ <h2>Three goals that feed each other</h2>
+ <div class="flow">
+  <div><small>01</small><b>A stronger presence</b><br><span style="font-size:13px;color:var(--muted)">Trust and a clear place in the market</span></div><i>→</i>
+  <div><small>02</small><b>Coaching program growth</b><br><span style="font-size:13px;color:var(--muted)">Qualified conversations and new clients</span></div><i>+</i>
+  <div><small>03</small><b>Brand partnerships</b><br><span style="font-size:13px;color:var(--muted)">Relevant collaborations</span></div>
+ </div>
+ <h3 style="margin-top:26px;font-size:18px">From interest to revenue</h3>
+ <div class="flow">
+  <div><small>Interest</small>Coaching DMs</div><i>→</i>
+  <div><small>Quality</small>Qualified leads</div><i>→</i>
+  <div><small>Conversion</small>New clients</div><i>→</i>
+  <div class="em"><small>Outcome</small>Coaching revenue</div>
+ </div>
+ <div class="g2">
+  <div class="panel soft"><h3>Partnerships</h3><div class="chips"><span class="chip">Inbound requests</span><span class="chip">Relevant opportunities</span><span class="chip">Partnership revenue</span><span class="chip">Repeat partners</span></div></div>
+  <div class="panel soft"><h3>Presence and trust</h3><p><b>Brand:</b> profile visits, inbound DMs, mentions<br><b>Content:</b> reach, watch time, retention, saves, shares, follower growth</p></div>
+ </div>
+ <h3 style="margin-top:26px;font-size:18px">Review cycle</h3>
+ <div class="loop">
+  <div><b>WEEK 1 TO 4</b>Publish, collect Insights and TikTok Analytics.</div>
+  <div><b>WEEK 4</b>Review reach, retention, engagement and profile actions.</div>
+  <div><b>THEN</b>Re-rank the segments on real numbers, keep what works, cut the rest.</div>
+ </div>
+ <div class="no">25</div>
+</section>
+
+<section class="slide" id="s-files" style="--accent:var(--slate)">
+ <div class="eb">Related files</div>
+ <h2>Go deeper</h2>
+ <p class="sub">The coach review and the first month of scripts sit in their own files.</p>
+ <div class="g2">
+  <a class="link-card" href="competitors-analysis.html"><div><b>Competitor content analysis</b><span>Top posts, pillars and gaps for each coach</span></div><em>→</em></a>
+  <a class="link-card" href="scripts.html"><div><b>Content scripts</b><span>The first month, ready to shoot</span></div><em>→</em></a>
+ </div>
+ <div class="no">26</div>
+</section>
+
+</main>
+
+<a class="up" href="#top" title="Back to top">↑</a>
+
+<script>
+(function(){
+  function go(id){
+    var el=document.getElementById(id);
+    if(!el)return;
+    var y=el.getBoundingClientRect().top+window.pageYOffset-64;
+    window.scrollTo({top:y<0?0:y,behavior:'smooth'});
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href^="#"]');
+    if(!a)return;
+    var id=a.getAttribute('href').slice(1);
+    if(id==='top'){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});return}
+    if(document.getElementById(id)){e.preventDefault();go(id)}
+  });
+  var links=[].slice.call(document.querySelectorAll('.top a[data-s]'));
+  var heads=links.map(function(a){return document.getElementById(a.getAttribute('data-s'))});
+  function onScroll(){
+    var y=window.pageYOffset+120,cur=-1;
+    heads.forEach(function(h,i){if(h&&h.offsetTop<=y)cur=i});
+    links.forEach(function(a,i){a.classList.toggle('on',i===cur)});
+    if(cur>=0){var p=links[cur].parentNode;p.scrollLeft=links[cur].offsetLeft-p.clientWidth/2}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
+</body>
+</html>
